@@ -1,0 +1,200 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<title>Imggallery</title>
+<link href="style.css"rel="stylesheet" type="text/css" />
+<link href="font.css"rel="stylesheet" type="text/css" />	
+
+<link rel="stylesheet" type="text/css" href="box.css">
+<script type="text/javascript" src="js/jquery-v1.7.1.js"></script>
+<script type="text/javascript" src="js/jquery-hover-effect.js"></script>
+<script type="text/javascript">
+//Image Hover
+jQuery(document).ready(function(){
+jQuery(function() {
+	jQuery('ul.da-thumbs > li').hoverdir();
+});
+});
+</script>
+
+
+<link type="text/css" rel="stylesheet" href="css3/demo.css" />
+		<link type="text/css" rel="stylesheet" href="css3/jquery.mmenu.css" />
+		<link type="text/css" rel="stylesheet" href="css3/extensions/jquery.mmenu.positioning.css" />
+
+<!------------------------------------menu---------------------------->		
+		
+		<script type="text/javascript" src="js2/jquery.mmenu.js"></script>
+		<script type="text/javascript">
+			$(function() {
+
+				var pos 	= 'mm-top mm-right mm-bottom',
+					zpos	= 'mm-front mm-next';
+
+				var $html 	= $('html'),
+					$menu	= $('nav#menu'),
+					$both	= $html.add( $menu );
+
+				$menu.mmenu();
+
+				//	Add the position-classnames onChange
+				$('input[name="pos"]').change(function() {
+					$both.removeClass( pos ).addClass( 'mm-' + this.value );
+				});
+				$('input[name="zpos"]').change(function() {
+					$both.removeClass( zpos ).addClass( 'mm-' + this.value );
+				});
+			});
+		</script>
+<!------------------------------------menu end---------------------------->
+<!--tab effect start-->
+<link href="css3/form5-tabs.css" rel="stylesheet" type="text/css">
+<script src="js/form5-tabs.min.js"></script> 
+<script>
+  $(function(){
+    $('tabs').tabs();
+  });
+</script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36251023-1']);
+  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<!--tab effect end-->
+</head>
+
+<body style=" background:#fff;">
+<!--menu-->
+<nav id="menu" style="background: rgb(34, 73, 128);">
+	
+		<ul>
+				<li><a href="#"><img src="images/search.png" style="width:10%;float: left; margin-right: 1%;">Find Homes</a></li>
+				<li><a href="#"><img src="images/nearby.jpg" style="width:11%;float: left; margin-right: 1%;">Browse nearby</a></li>
+				<li><a href="#"><img src="images/favourite.jpg" style="width:10%;float: left; margin-right: 1%;">Favourite Homes</a></li>
+				<li><a href="#"><img src="images/notification.jpg" style="width:10%;float: left; margin-right: 1%;">Notifications </a></li>
+				<li><a href="#"><img src="images/saved.jpg" style="width:10%;float: left; margin-right: 1%;">All Saved Searches</a></li>
+				<li><a href="#"><img src="images/calculator.jpg" style="width:10%;float: left; margin-right: 1%;">Mortgage Calculator</a></li>
+				<li><a href="#"><img src="images/signin.jpg" style="width:10%;float: left; margin-right: 1%;">Signin/register</a></li>
+				<li><a href="#"><img src="images/settings.jpg" style="width:10%;float: left; margin-right: 1%;">Settings</a></li>
+				
+		</ul>
+</nav>
+<!------------------------------------menu end---------------------------->
+<!------------------------------------logobar---------------------------->
+
+<div id="logo-bar">
+		<div id="logo-content">
+				<div id="header"  style="background:#0f74b8;width:98%; height: auto; padding: 1%;position:absolute;  ">
+						<a href="#menu" style="border: none; outline: 0; outline-style:none; outline-width:0;"><img src="images/index.png" style="padding-top: 40%; "  /></a>
+						<img src="images/logosymbol.png" style="width:15%; height: auto;float: left; margin-left:10%; margin-right: 2%;">
+						
+						<img src="images/map.png" style="width:12%; height: auto;float: right; margin-right: 2%; margin-top: 2%;">
+						<img src="images/search.png" style="width:15%; height: auto;float: right; margin-right: 2%;">
+				</div>
+				
+				
+		</div>
+</div>
+
+
+
+<!------------------------------------content_bar---------------------------->
+<div id="content-bar">
+		<div id="content">	
+			<div class="content-box">	
+						<h1 style="color: #000; font-weight: normal;text-transform: uppercase; ">Showing Recently Changed First</h1>
+						<hr >
+							
+						<div class="listbox">
+							<div class="listimg">
+								<img src="images/image1.jpg" style="width:100%; height: auto;">
+							</div>
+							<div class="list_content">
+								<h1 style="color: #000; font-size:16px;font-weight: normal;text-transform: uppercase; margin-top: 0%; margin-bottom: 0; ">5 E 29th St,Kansas City</h1>
+								<p class="text" style="margin-top: 0%; padding-top: 0; font-size:14px;">
+									<img src="images/arrow.jpg" style="width:10%; height: auto;float: left; margin-right: 1%;">For Sale:$199,950<br/>
+									<span style="width:60%;float: left;">2Beds</span> <span style="float: left;">5Bath</span><br/>
+									1,118sqft
+								</p>
+							</div>
+						</div>
+						<div class="listbox">
+							<div class="listimg">
+								<img src="images/image2.jpg" style="width:100%; height: auto;">
+							</div>
+							<div class="list_content">
+								<h1 style="color: #000; font-size:16px;font-weight: normal;text-transform: uppercase; margin-top: 0%; margin-bottom: 0; ">5 E 29th St,Kansas City</h1>
+								<p class="text" style="margin-top: 0%; padding-top: 0; font-size:14px;">
+									<img src="images/arrow.jpg" style="width:10%; height: auto;float: left; margin-right: 1%;">For Sale:$199,950<br/>
+									<span style="width:60%;float: left;">2Beds</span> <span style="float: left;">5Bath</span><br/>
+									1,118sqft
+								</p>
+							</div>
+						</div>
+						<div class="listbox">
+							<div class="listimg">
+								<img src="images/image1.jpg" style="width:100%; height: auto;">
+							</div>
+							<div class="list_content">
+								<h1 style="color: #000; font-size:16px;font-weight: normal;text-transform: uppercase; margin-top: 0%; margin-bottom: 0; ">5 E 29th St,Kansas City</h1>
+								<p class="text" style="margin-top: 0%; padding-top: 0; font-size:14px;">
+									<img src="images/arrow.jpg" style="width:10%; height: auto;float: left; margin-right: 1%;">For Sale:$199,950<br/>
+									<span style="width:60%;float: left;">2Beds</span> <span style="float: left;">5Bath</span><br/>
+									1,118sqft
+								</p>
+							</div>
+						</div>
+						<div class="listbox">
+							<div class="listimg">
+								<img src="images/image2.jpg" style="width:100%; height: auto;">
+							</div>
+							<div class="list_content">
+								<h1 style="color: #000; font-size:16px;font-weight: normal;text-transform: uppercase; margin-top: 0%; margin-bottom: 0; ">5 E 29th St,Kansas City</h1>
+								<p class="text" style="margin-top: 0%; padding-top: 0; font-size:14px;">
+									<img src="images/arrow.jpg" style="width:10%; height: auto;float: left; margin-right: 1%;">For Sale:$199,950<br/>
+									<span style="width:60%;float: left;">2Beds</span> <span style="float: left;">5Bath</span><br/>
+									1,118sqft
+								</p>
+							</div>
+						</div>
+						
+						
+			</div>
+			
+		</div>
+</div>
+
+    <div style="width:96%; height: auto; float: left; padding: 2%; padding-top: 4%; margin-top: 5%; background: #efefef;">
+							<p class="text" style="width:49%; float: left;text-transform: uppercase; text-align: center; border-right: 1px solid #666;">
+								Filter Search
+							</p>
+							<p class="text" style=" float: left; padding-left: 2%;width:48%;text-transform: uppercase;text-align: center;">
+								save this search
+							</p>
+   </div>
+  
+
+
+
+
+
+
+
+
+</body>
+</html>
+
