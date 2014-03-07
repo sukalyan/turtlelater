@@ -1,0 +1,88 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<title>Imggallery</title>
+<link href="style.css"rel="stylesheet" type="text/css" />
+<link href="font.css"rel="stylesheet" type="text/css" />	
+
+<link rel="stylesheet" type="text/css" href="box.css">
+<script type="text/javascript" src="js/jquery-v1.7.1.js"></script>
+<script type="text/javascript" src="js/jquery-hover-effect.js"></script>
+<script type="text/javascript">
+//Image Hover
+jQuery(document).ready(function(){
+jQuery(function() {
+	jQuery('ul.da-thumbs > li').hoverdir();
+});
+});
+</script>
+
+
+<style>
+	tr td{
+		height: 60px;
+	}
+</style>
+</head>
+
+<body style=" background:#fff;">
+
+<!------------------------------------logobar---------------------------->
+
+<div id="logo-bar">
+		<div id="logo-content">
+				<div id="header" style="background:#0f74b8;width:98%; height: auto; padding: 1%;position:absolute;  ">
+						<img src="images/logosymbol.png" style="width:15%; height: auto;float: left; margin-right: 2%;">
+						<h1 style="font-weight: normal;">Create Account</h1>
+				</div>
+				
+				
+				
+		</div>
+</div>
+<!------------------------------------logobar end---------------------------->
+
+
+<!------------------------------------content_bar---------------------------->
+<div id="content-bar" >
+		<div id="content" >
+			<form name="form1" method="post" action="home.htm">
+			<table style="width:100%; margin-top: 5%;">
+				<tr>
+					<td><input type="text" name="email" style="width:98%;font-size:16px;border:1px solid #666; height: 35px;" value="E-mail Address" ></td>
+				</tr>
+				<tr>
+					<td><input type="text" name="password" style="width:98%;font-size:16px;border:1px solid #666; height: 35px;" value="Password" ></td>
+				</tr>
+				<tr>
+					<td><input type="submit" value="Create Account" style="width:98%; height: 45px; padding: 1%; color: #000; font-size:20px; background: #efefef; border-radius:3px; -moz-border-radius:3px; border: none; outline: 0; outline-style:none; outline-width:0; border-bottom: 1px solid #999;"></td>
+				</tr>
+				
+			</table>
+			</form>
+			<p class="text" style="text-align: center; margin-bottom: 5%;">
+				By tapping the "create account" button above,I accept Rentalgeek's <span style="color: #0f74b8; text-decoration:underline;">Terms Of Use</span>
+				
+			</p>
+			<div style="width:43%;height: 1px; border-bottom:1px solid #999; float: left;margin-top: 1.5%;"></div>
+			<div style="width:auto;height: 1px;float: left;margin-left: 2%; ">Or</div>
+			<div style="width:43%;height: 1px; border-bottom:1px solid #999;float: left;margin-top: 1.5%;margin-left: 2%;"></div>
+			
+			<div style="width:100%; height: auto; float: left; margin-top: 8%;">
+				<img src="images/facebook.png" style="width:100%; height: auto;">
+			</div>
+			
+		</div>
+</div>
+
+
+
+
+</body>
+</html>
+
