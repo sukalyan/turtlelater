@@ -120,11 +120,10 @@ body{
 	width:100%;
 	height:auto;
 	float:left;
-<<<<<<< HEAD
-	margin-top:1%;
-=======
-	margin-top:17%;
->>>>>>> fd7158b7248683aa73a1409d79d228c342ccaa76
+margin-top:1%;
+margin-bottom:5%;
+
+	
 }
 
 #content{
@@ -164,18 +163,23 @@ body{
 
 #footer{
 	width:100%;
-	height:auto;
+	height:40px;
 	float:left;
-	
-	margin-top:3%;
+position:fixed;
+margin-top:3%;
+bottom:0px;
+background: rgb(0, 0, 0); /* Old browsers */
+
 }
 
 #footer-box{
-	width:100%;
+	width:49.5%;
 	height:auto;
 	float:left;
-	background: #780018;
-	
+	margin-top:3%;
+	color:#fff;
+	font-size:14px;
+	text-align:center;
 
 }
 
