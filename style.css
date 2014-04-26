@@ -7,7 +7,7 @@ body{
 	font-family:Arial, Helvetica, sans-serif;
 	margin:0;
 	padding:0;
-	
+
 }
 /***************************** logobar****************/
 #logo-bar{
@@ -40,6 +40,7 @@ body{
 	margin-top:2%;
 
 }
+
 @font-face {
     font-family: 'dancing_script_otregular';
     src: url('font/dancingscript-regular-webfont.eot');
@@ -55,6 +56,7 @@ body{
 	 font-size:38px;
 	 color: #fff;
 }
+
 /*****************************logobar end****************/
 
 
@@ -118,7 +120,11 @@ body{
 	width:100%;
 	height:auto;
 	float:left;
+<<<<<<< HEAD
 	margin-top:1%;
+=======
+	margin-top:17%;
+>>>>>>> fd7158b7248683aa73a1409d79d228c342ccaa76
 }
 
 #content{
@@ -315,6 +321,7 @@ background-image: linear-gradient(to bottom, #302E2F 0%, #575757 100%);
 .button3:hover{
 	background:rgb(48, 46, 47);
 	}
+
 .loginbutton{
 	background: rgb(157,213,58); /* Old browsers */
 background: -moz-linear-gradient(top, rgba(157,213,58,1) 0%, rgba(161,213,79,1) 50%, rgba(128,194,23,1) 51%, rgba(124,188,10,1) 100%); /* FF3.6+ */
@@ -368,6 +375,9 @@ h2{
    -webkit-box-shadow: inset 0 0 5px #000000;
    box-shadow:         inset 0 0 5px #000000;border-radius:8px; -moz-border-radius:8px;
 }
+
+
+
 .button4{
 	width:40%;
 	height:auto;
@@ -397,7 +407,11 @@ text-shadow:1px 1px #333;
 .text{
 	font-family: arial;
 	font-size:16px;
+
 	color: #fff;
+=======
+	color: #333;
+
 	line-height: 1.7;
 }
 
