@@ -7,6 +7,7 @@ body{
 	font-family:Arial, Helvetica, sans-serif;
 	margin:0;
 	padding:0;
+	
 }
 /***************************** logobar****************/
 #logo-bar{
@@ -38,6 +39,21 @@ body{
 	float:left;
 	margin-top:2%;
 
+}
+@font-face {
+    font-family: 'dancing_script_otregular';
+    src: url('font/dancingscript-regular-webfont.eot');
+    src: url('font/dancingscript-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/dancingscript-regular-webfont.woff') format('woff'),
+         url('font/dancingscript-regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+.logo{
+	   font-family: 'dancing_script_otregular';
+	 font-size:38px;
+	 color: #fff;
 }
 /*****************************logobar end****************/
 
@@ -102,7 +118,7 @@ body{
 	width:100%;
 	height:auto;
 	float:left;
-	margin-top:17%;
+	margin-top:1%;
 }
 
 #content{
@@ -299,7 +315,59 @@ background-image: linear-gradient(to bottom, #302E2F 0%, #575757 100%);
 .button3:hover{
 	background:rgb(48, 46, 47);
 	}
-
+.loginbutton{
+	background: rgb(157,213,58); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(157,213,58,1) 0%, rgba(161,213,79,1) 50%, rgba(128,194,23,1) 51%, rgba(124,188,10,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(157,213,58,1)), color-stop(50%,rgba(161,213,79,1)), color-stop(51%,rgba(128,194,23,1)), color-stop(100%,rgba(124,188,10,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, rgba(157,213,58,1) 0%,rgba(161,213,79,1) 50%,rgba(128,194,23,1) 51%,rgba(124,188,10,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, rgba(157,213,58,1) 0%,rgba(161,213,79,1) 50%,rgba(128,194,23,1) 51%,rgba(124,188,10,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, rgba(157,213,58,1) 0%,rgba(161,213,79,1) 50%,rgba(128,194,23,1) 51%,rgba(124,188,10,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom, rgba(157,213,58,1) 0%,rgba(161,213,79,1) 50%,rgba(128,194,23,1) 51%,rgba(124,188,10,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9dd53a', endColorstr='#7cbc0a',GradientType=0 ); /* IE6-9 */
+border:none;
+width:100%;
+height:35px;
+color: #fff;
+border-radius:5px;
+-moz-border-radius:5px;
+padding-top: 1%;
+padding-bottom: 1%;
+font-size:18px;
+}
+.createbutton{
+	width:100%;
+	height: 35px;
+	padding: 1%;
+	color: #000;
+	font-size:18px;
+	background: #efefef;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	border: none;
+	outline: 0;
+	outline-style:none;
+	outline-width:0;
+	border-bottom: 1px solid #999;
+}
+h2{
+	font-family:arial;
+	font-size:22px;
+	color: #fff;
+	font-weight: normal;
+	text-align: center;
+	
+	padding-top: 0px;
+}
+.textboxbar{
+	width:98%; height: auto; float: left; padding: 1%; background: #fff; -moz-box-shadow:    inset 0 0 3px #000000;
+   -webkit-box-shadow: inset 0 0 3px #000000;
+   box-shadow:         inset 0 0 3px #000000; border-radius:5px; -moz-border-radius:5px;
+}
+.facebookbox{
+	width:90%; height: auto; float: left; margin-top: 8%; padding: 5%;   background: url(images/tablebg.png) repeat-x;-moz-box-shadow:    inset 0 0 5px #000000;
+   -webkit-box-shadow: inset 0 0 5px #000000;
+   box-shadow:         inset 0 0 5px #000000;border-radius:8px; -moz-border-radius:8px;
+}
 .button4{
 	width:40%;
 	height:auto;
@@ -329,7 +397,7 @@ text-shadow:1px 1px #333;
 .text{
 	font-family: arial;
 	font-size:16px;
-	color: #333;
+	color: #fff;
 	line-height: 1.7;
 }
 

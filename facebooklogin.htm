@@ -8,6 +8,19 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
 <title>Imggallery</title>
 <link href="style.css"rel="stylesheet" type="text/css" />
+<link href="font.css"rel="stylesheet" type="text/css" />	
+
+<link rel="stylesheet" type="text/css" href="box.css">
+<script type="text/javascript" src="js/jquery-v1.7.1.js"></script>
+<script type="text/javascript" src="js/jquery-hover-effect.js"></script>
+<script type="text/javascript">
+//Image Hover
+jQuery(document).ready(function(){
+jQuery(function() {
+	jQuery('ul.da-thumbs > li').hoverdir();
+});
+});
+</script>
 
 
 <style>
@@ -43,30 +56,21 @@
 <!------------------------------------content_bar---------------------------->
 <div id="content-bar" >
 		<div id="content" >
-			<form name="form1" method="post" action="home.htm">
-			<table style="width:100%; ">
-				<tr>
-					<td><input type="text" name="email" style="width:100%; color: #5d5d5d;font-size:16px;border:1px solid #666; height: 35px;" value="E-mail Address" ></td>
-				</tr>
-				<tr>
-					<td><input type="text" name="password" style="width:100%; color: #5d5d5d;font-size:16px;border:1px solid #666; height: 35px;" value="Password" ></td>
-				</tr>
-				<tr>
-					<td><input type="submit" value="Login here" class="loginbutton"></td>
-				</tr>
+			<form name="form1" method="post" action="#">
+				<div class="facebookbox">
+						<h2 style="margin-top: 0%;">Signin with <span style="font-family: 'dancing_script_otregular'; font-size:40px;">Facebook</span></h2>
+						<div class="textboxbar">
+							<input type="text" name="email" style="width:98%; color: #5d5d5d;font-size:16px;border:none; border-bottom: 1px solid #dedede; height: 35px; float: left; margin-left: 1%;" value="E-mail Address" ><br/>
+							<input type="text" name="password" style="width:98%;color: #5d5d5d; font-size:16px;border:none; height: 35px; float: left; margin-left: 1%;" value="Password" >
+								
+						</div>
+				<div style="width:100%; height: auto; float: left; margin-top: 5%;"><input type="submit" value="Login here" class="loginbutton"></div>
 				
-				
-				
-			</table>
+				</div>
 			</form>
-			<table  style="width:100%; float: left; margin-top:1.5%; ">
-				<tr>
-					<td><a href="signup.htm"><input type="submit" value="Create Account" class="createbutton"></a></td>
-				</tr>
-			</table>
-			<div style="width:100%; height: auto; float: left; margin-top: 8%;">
-				<a href="facebooklogin.htm"><img src="images/facebook.png" style="width:100%; height: auto;"></a>
-			</div>
+			
+			
+			
 			
 		</div>
 </div>
