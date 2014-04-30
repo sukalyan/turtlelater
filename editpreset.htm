@@ -1,0 +1,89 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<title>Imggallery</title>
+<link href="style.css"rel="stylesheet" type="text/css" />
+
+
+
+<style>
+	tr td{
+		height: 40px;
+	}
+	body{
+		background: url(images/mobilebg.jpg) no-repeat;
+		background-size: cover;
+	-webkit-background-size: cover;
+	}
+	
+</style>
+</head>
+
+<body>
+<div id="logo-bar">
+		<div id="logo-content">
+				<div id="logo-box" >
+						<a href="index.htm"><img src="images/logo.png" style="width:35%; "><br/></a>
+						<span class="logo">Turtle Later</span>
+				</div>
+				
+				
+				
+		</div>
+</div>
+<!------------------------------------content_bar---------------------------->
+<div id="content-bar" >
+		<div id="content" >
+			
+			<div style="width:98%; height: auto; float: left; padding: 1%;  ">
+			<form name="form1" method="post" action="savepreset.htm">
+			<table style="width:100%; ">
+				<tr>
+					
+					<td>Preset Name<br/><input type=text name="new preset" value="work"  style="width:100%; color: #5d5d5d;font-size:16px;border:1px solid #666; height: 35px;"></td>
+				</tr>
+				<tr>
+					
+					<td>Preset Message<br/>
+					<input type=text name="new preset" value="I am in office right now" style="width:100%; color: #5d5d5d;font-size:16px;border:1px solid #666; height: 80px;" ></td>
+				</tr>
+				<tr>
+					
+					<td ><input type="submit" value="Update" class="loginbutton"></td>
+				</tr>
+				
+			</table>
+			</form>
+			</div>
+			
+			
+			
+			
+			
+			
+			
+			
+		</div>
+</div>
+
+<div id="footer">
+	<a href="newpreset.htm" style="text-decoration: none;">
+		<div id="footer-box" style="border-right:1px solid #efefef;">
+		New preset
+		</div>
+	</a>
+	<a href="settings.htm" style="text-decoration: none;">
+		<div id="footer-box">
+		Settings
+		</div>
+	</a>
+</div>
+
+</body>
+</html>
+
